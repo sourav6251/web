@@ -2336,3 +2336,44 @@
 30-Sep-2024 21:42:31.603 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 30-Sep-2024 21:42:31.613 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 30-Sep-2024 21:42:31.616 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2024 21:43:58.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M26
+30-Sep-2024 21:43:58.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 13 2024 16:51:17 UTC
+30-Sep-2024 21:43:58.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+30-Sep-2024 21:43:58.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Sep-2024 21:43:58.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.9.7-amd64
+30-Sep-2024 21:43:58.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2024 21:43:58.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+30-Sep-2024 21:43:58.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.12+7-Debian-2deb12u1
+30-Sep-2024 21:43:58.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+30-Sep-2024 21:43:58.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sourav/Desktop/springMVC2
+30-Sep-2024 21:43:58.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/apache-tomcat-11
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/apache-tomcat-11
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sourav/Desktop/springMVC2
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sourav/Desktop/springMVC2/temp
+30-Sep-2024 21:43:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sourav/Desktop/springMVC2/conf/logging.properties
+30-Sep-2024 21:43:58.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2024 21:43:58.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/usr/share/jetbrains/lib/idea_rt.jar=36169:/usr/share/jetbrains/bin
+30-Sep-2024 21:43:58.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+30-Sep-2024 21:43:58.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+30-Sep-2024 21:43:58.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+30-Sep-2024 21:43:58.576 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+30-Sep-2024 21:43:58.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2024 21:43:58.728 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [240] milliseconds
+30-Sep-2024 21:43:58.752 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2024 21:43:58.752 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M26]
+30-Sep-2024 21:43:58.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/sourav/Desktop/springMVC2/conf/Catalina/localhost/springMVC2.xml]
+30-Sep-2024 21:43:59.241 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 21:43:59.270 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dad-frontcontroller-dispatcher'
+30-Sep-2024 21:43:59.597 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 327 ms
+30-Sep-2024 21:43:59.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/sourav/Desktop/springMVC2/conf/Catalina/localhost/springMVC2.xml] has finished in [844] ms
+30-Sep-2024 21:43:59.603 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2024 21:43:59.609 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [881] milliseconds
+30-Sep-2024 21:44:15.092 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2024 21:44:15.094 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2024 21:44:15.104 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2024 21:44:15.107 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
